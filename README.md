@@ -12,7 +12,7 @@ npm run web           # direto no navegador
 Para abrir em outro idioma na web: `http://localhost:8081/?lang=en`. Para mudar o idioma padrão: `DEFAULT_LANG` em `src/i18n/index.js`.
 Para publicar a versão web em uma subpasta (ex.: `/app` no site): `EXPO_BASE_URL=/app npx expo export --platform web`.
 
-## Mapa de telas (como no briefing)
+## Mapa de telas 
 | Tela | Onde está | O que faz |
 |---|---|---|
 | Abertura | `src/screens/Flow.js` (Opening) | Logo e, em seguida, a mulher se conectando ao App. Até 10 s, com "Pular" |
@@ -53,16 +53,7 @@ A barra inferior (Início, Diário, Evolução, Minhas consultas, Ajustes) fica 
 - `src/components/`: `Figure.js` (ilustração única: a mesma cabeça, pele, cabelo e roupa no avatar e no corpo do diário), `Body.js` (corpo com pontos e patch), gráficos, formulários, header e folhas.
 - `assets/`: logo oficial, caixa aberta sem fundo e as duas imagens da mulher do protótipo de referência (`assets/people/`).
 
-## Decisões para confirmar com a Ana
-1. **Respiração ficou de fora** da comparação com o patch. O briefing cita "frequência cardíaca e respiração", mas a mensagem mais recente lista 4 parâmetros (sono por movimento, batimento cardíaco, temperatura cutânea e condutância). Segui os 4.
-2. **Dados da pesquisa saíram do App**, como pedido. O App não usa mais nenhuma respondente como persona.
-3. **Início e convite ao registro** estão na mesma tela (no briefing são duas).
-4. **Campos obrigatórios**: considerei obrigatórios só os sintomas do plano; sono, energia e quantidade de eventos são opcionais.
-5. **Imagens da mulher**: são as do protótipo de referência. As escolhas de aparência (tom de pele, cor do cabelo, 6 penteados, cor dos olhos, óculos, 3 silhuetas e cor da roupa) mudam juntas o avatar e o corpo do diário, não a foto.
-6. **Telefone 3D retirado**: o conteúdo e a organização do telefone 3D do protótipo de referência foram trazidos para o próprio App. A experiência 3D ficou com a caixa aberta e o patch em camadas (perspectiva e giro por arrasto, sem WebGL).
-7. As traduções foram feitas com apoio de IA: revisar alemão e francês antes da Suíça.
-
-## Instalar pelo navegador (12/11)
+## Instalar pelo navegador
 
 `public/` traz o `manifest.json`, os ícones e o `index.html` da versão web. Com eles, o app publicado pode ser instalado com ícone:
 no Android (Chrome › Instalar app), no iPhone (Safari › Compartilhar › Adicionar à Tela de Início) e no computador (Chrome/Edge).
