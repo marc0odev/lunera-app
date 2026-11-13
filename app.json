@@ -6,7 +6,10 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.lunera.app" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lunera.app"
+    },
     "android": {
       "package": "com.lunera.app",
       "adaptiveIcon": {
@@ -16,6 +19,13 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
-    "web": { "favicon": "./assets/favicon.png" }
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f4c738a-5f37-402a-a5ab-de9a0f1681ed"
+      }
+    }
   }
 }
