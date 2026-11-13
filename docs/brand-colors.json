@@ -1,0 +1,22 @@
+{
+  "source": "Lunera10.png (logo oficial) — amostragem por k-means nas regiões do wordmark, do crescente e do orbe",
+  "fromLogo": {
+    "indigo": "#3F399B",
+    "slate": "#495596",
+    "violet": "#7D5ADF",
+    "orchid": "#9C66D3",
+    "periwinkle": "#8299F8",
+    "royal": "#526CD7",
+    "sky": "#4794CE",
+    "aqua": "#6AC8E6",
+    "lavender": "#DBC0F7"
+  },
+  "derived": {
+    "ink": "#1E1B52",
+    "violetDeep": "#6446C8",
+    "hero": "#0F1238",
+    "paper": "#FAF9FF",
+    "mist": "#F1EEFC",
+    "line": "#E6E1F5"
+  }
+}
